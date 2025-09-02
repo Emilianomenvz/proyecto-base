@@ -21,7 +21,7 @@ class Operaciones:
                 continue    
     
     def sumar(self):
-        self.resultado = "La suma de " + str(self.num1) + " + " + str(self.num2) + " es igula a " +
+        self.resultado = "La suma de " + str(self.num1) + " + " + str(self.num2) + " es igula a " 
         
     def restar(self):
         self.resultado=self.num1 - self.num2
