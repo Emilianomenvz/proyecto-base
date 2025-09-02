@@ -21,8 +21,22 @@ class Operaciones:
                 continue    
     
     def sumar(self):
-        self.resultado = "La suma de " + str(self.num1) + " + " + str(self.num2) + " es igula a " + str(self.num1 + self.num2)
+        self.resultado = "La suma de " + str(self.num1) + " + " + str(self.num2) + " es igula a " +
+        
+    def restar(self):
+        self.resultado=self.num1 - self.num2
+        return self.resultado
     
+    def multiplicar (self):
+        self.resultado = self.num2 * self.num1
+        return self.resultado   
+    
+    def division (self):
+        self.resultado = self.num1 / self.num2
+        return self.resultado
+    def modulo (self):
+        self.resultado =self.num1 % self.num2
+
     def mostrarResultado(self):
         print(self.resultado)
         
